@@ -12,7 +12,7 @@ h1 {
 }
 
 .header-image {
-    background-image: url(images/donation3.jpg);
+    background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 5px;
@@ -23,20 +23,52 @@ h1 {
 .center-align {
     text-align: center;
     width: 50%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
-.center-align p {
+.header-image p {
     color: white;
     font-size: 20px;
 }
 
-.button {
-    text-decoration: none;
+.donate-button {
+
     font-weight: 800;
     color: white;
     background-image: linear-gradient(rgb(230, 81, 81), rgb(223, 32, 95));
     margin: 0 auto;
     padding: 10px 25px;
     border-radius: 5px;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+input {
+    border: none;
+}
+
+.button {
+    background-color: rgba(128, 128, 128, 0.041);
+    font-size: 25px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 2px;
+    padding: 40px 15px;
+    margin: 5px;
+}
+
+#check {
+    background-color: rgba(255, 99, 71, 0.123);
+    border: 2px solid tomato;
+    border-radius: 2px;
+    font-size: 25px;
+    font-weight: 400;
+    color: tomato;
+    padding: 40px 15px;
+    margin: 5px;
 }
