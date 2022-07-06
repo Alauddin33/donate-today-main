@@ -17,13 +17,13 @@ h1 {
     background-size: 100%;
     padding-top: 5px;
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 .center-align {
     text-align: center;
     width: 50%;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .header-image p {
@@ -32,28 +32,33 @@ h1 {
 }
 
 .donate-button {
-
+    border: none;
     font-weight: 800;
     color: white;
     background-image: linear-gradient(rgb(230, 81, 81), rgb(223, 32, 95));
     margin: 0 auto;
     padding: 10px 25px;
     border-radius: 5px;
-    text-decoration: none;
-
 }
+
 
 h2 {
     font-size: 40px;
     font-weight: 700;
 }
 
-input {
+h3 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.center-align input {
     border: none;
 }
 
 .button {
     background-color: rgba(128, 128, 128, 0.041);
+
     font-size: 25px;
     font-weight: 400;
     border: 0;
@@ -72,3 +77,33 @@ input {
     padding: 40px 15px;
     margin: 5px;
 }
+
+.donate-plan {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+#food {
+    background-color: rgba(95, 158, 160, 0.185);
+    margin-right: 20px;
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+
+#shelter {
+    background-color: rgba(255, 182, 193, 0.295);
+    margin-right: 20px;
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+
+#education {
+    background-color: rgba(255, 228, 196, 0.527);
+    margin-right: 20px;
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+
+section {}
